@@ -38,6 +38,7 @@ const Header = () => {
           </svg>
         </div>
       )}
+      <Navigation />
     </header>
   );
 };
