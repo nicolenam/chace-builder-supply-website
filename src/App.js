@@ -5,6 +5,8 @@ import PopularProducts from './components/PopularProducts';
 import Welcome from './components/Welcome';
 import Support from './components/Support';
 import Text from './components/Text';
+import Payment from './components/Payment';
+import Footer from './components/Footer';
 import './styles/Resets.scss';
 
 function App() {
@@ -17,8 +19,10 @@ function App() {
         <PopularProducts />
         <Welcome />
         <Support />
+        <Payment />
         <Text />
       </main>
+      <Footer />
     </div>
   );
 }

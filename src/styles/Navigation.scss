@@ -11,16 +11,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     gap: 50px;
 }
 
 .logo img {
     width: 300px;
+    height: auto;
 }
 
 .search{
-    z-index: 3000;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ nav {
     transition: opacity 0.2s ease-out 0s;
 }
 
-.menuList:hover{
+.menuListItem:hover{
     opacity: 0.8;
 }
 
@@ -88,10 +88,6 @@ nav {
     line-height: 1.5;
     font-size: 12px;
     font-weight: 700;
-}
-
-.cart{
-    text-decoration: none;
 }
 
 .quotes div {
@@ -111,7 +107,7 @@ nav {
     padding: 12px 30px;
 }
 
-.quotes a{
+a{
     text-decoration: none;
 }
 
@@ -130,3 +126,144 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.secondMenu {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    transition: all 0.2s ease-out 0s;
+    padding: 0 0 10px 0;
+}
+
+.secondMenuItem {
+    display: flex;
+    gap: 35px;
+}
+
+.secondMenuItem p {
+    color: rgb(18, 133, 110);
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 700;
+    transition: opacity 0.2s ease-out 0s;
+}
+
+.secondMenuItem:hover {
+    opacity: 0.8;
+}
+
+.secondMenuItem a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(18, 133, 110);
+}
+
+.address {
+    color: rgb(18, 133, 110);
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.address span:hover {
+    text-decoration: underline;
+}
+
+.addressSvg svg{
+    margin-right: 4px;
+}
+
+.addressP {
+    color: rgb(115, 115, 115);
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.jnlaTF {
+    margin-top: -60px;
+}
+
+.eXZniU {
+    background: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px;
+    max-height: 228px;
+}
+
+.ddRptk {
+    margin: 60px 50px 50px;
+}
+
+.hdhSsb {
+    color: rgb(115, 115, 115);
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sIRzY {
+    box-sizing: border-box;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 20px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 238, 238);
+}
+
+.bcaJjD {
+    flex: 1 1 0%;
+}
+
+.cIKpxU {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    box-sizing: content-box;
+    margin-top: -20px;
+    z-index: 1000;
+}
+
+.fGOccz {
+    color: rgb(28, 28, 30);
+}
+
+.kanDXL {
+    color: rgb(28, 28, 30);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.ddRptk {
+    margin: 60px 50px 50px;
+    
+} 

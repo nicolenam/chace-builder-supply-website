@@ -1,2 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap');
 
+.support {
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    padding-bottom: 150px;
+}
+
+.delivery{
+    border-right: 1px solid rgb(238, 238, 238);
+    text-align: center;
+    padding: 50px;
+}
+
+.fYnMkb {
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: none;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.cWGOwt {
+    color: inherit;
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+}
+
+.fsfWuT {
+    padding: 35px;
+    max-width: 1056px;
+    margin: 0px auto;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+}
+
+.gBVprN {
+    color: rgb(18, 133, 110);
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: none;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.bwgYZq {
+    width: 35px;
+    height: 100%;
+}
+
+.grsaJH:link, .grsaJH:visited, .grsaJH:hover, .grsaJH:active {
+    color: inherit;
+}
+
+.grsaJH {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bJRsxL {
+    border-radius: 25px;
+    border: 2px solid rgb(18, 133, 110);
+    height: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    transition: all 0.2s ease-out 0s;
+    touch-action: manipulation;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgb(18, 133, 110);
+    box-shadow: none;
+    padding: 12px 30px;
+}
+
+.kjBqBv {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+    transition: all 0.2s ease-out 0s;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
