@@ -24,28 +24,35 @@ Based on the analysis, the following optimizations will be implemented:
 
 3. Semantic HTML Structure: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
 
-<details>
-     <summary>Meta Tags</summary>
+    <details>
+        <summary>Meta Tags</summary>
 
-```html
-<html>
-    <head>
-    <meta charset="UTF-8">
-    <title>Chace Building Supply - Quality Construction Materials for Your Projects</title>
-    <meta name="description" content="Chace Building Supply offers a wide range of high-quality construction materials for residential and commercial projects. 
-    Browse our catalog and find everything you need for your next construction or remodeling job.">
-    <meta name="keywords" content="construction materials, building supplies, remodeling, residential construction">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.chacebuildingsupply.com/">
-    <meta property="og:title" content="Chace Building Supply - Quality Construction Materials">
-    <meta property="og:image" content="https://www.example.com/image.jpg">
-    </head>
-<body>
-  <!-- webpage content goes here -->
-</body>
-</html>
+    ```html
+    <html>
+        <head>
+            <meta charset="UTF-8">
 
-```
-</details>
+            <title>Chace Building Supply - Quality Construction Materials for Your Projects</title>
+
+            <meta name="description" content="Chace Building Supply offers a wide range of high-quality construction materials for residential and commercial projects. 
+            Browse our catalog and find everything you need for your next construction or remodeling job.">
+
+            <meta name="keywords" content="construction materials, building supplies, remodeling, residential construction">
+
+            <meta name="robots" content="index, follow">
+
+            <link rel="canonical" href="https://www.chacebuildingsupply.com/">
+
+            <meta property="og:title" content="Chace Building Supply - Quality Construction Materials">
+            <meta property="og:image" content="https://www.chacebuildingsupply.com/image.jpg">
+            
+        </head>
+    <body>
+    <!-- webpage content goes here -->
+    </body>
+    </html>
+
+    ```
+    </details>
 
 4. SEO Enhancements: Relevant heading tags (h1, h2, etc.) will be utilized to provide a clear hierarchy of content. Meta tags, including title, description, and keywords, will be optimized to accurately represent each page's content. Structured data markup will be added where appropriate to provide search engines with additional context.
