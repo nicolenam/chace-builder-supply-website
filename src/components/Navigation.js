@@ -113,7 +113,7 @@ const Navigation = () => {
           </div>
         <div className="">
           <div className="">
-            <a className="">
+            <a className="" href="/">
               <p color="#12856e" className="">
                 All Products
               </p>

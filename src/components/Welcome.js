@@ -1,21 +1,14 @@
+import "../styles/Welcome.scss";
+
 const Welcome = () => {
   return (
     <section className="welcome">
       <div className="content-container">
-        <h1>Welcome to our Lumber Yard!</h1>
+        <h1>Welcome to Chace Building Supply!</h1>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-          labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-          consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-          nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        Over five generations ago in 1885, Peleg Durfree Humphrey first opened the doors of his lumber company on the riverfront wharf in Tiverton, Rhode Island. As the main suppliers for local business and residential construction, the company grew with the area and became the largest employer in Tiverton. Several generations later, P.D. Humphrey was instrumental in rebuilding the coastline areas of Southern Rhode Island and Eastern Connecticut after the devastating hurricane of 1938. A subsequent hurricane in 1954 finally resulted in a move to higher ground after company employees watched most of their inventory float away down the Sakonnet River.
         </p>
-        <img src="/ezgif.com-webp-to-png.png"/>
+        <img src="/ezgif.com-webp-to-png.png" alt="deck"/>
       </div>
     </section>
   );

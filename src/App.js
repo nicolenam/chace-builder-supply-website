@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import PopularProducts from './components/PopularProducts';
 import Welcome from './components/Welcome';
+import Text from './components/Text';
+import './styles/Resets.scss';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Hero />
         <PopularProducts />
         <Welcome />
+        <Text />
       </main>
     </div>
   );

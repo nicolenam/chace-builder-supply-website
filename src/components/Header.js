@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navigation from "./Navigation";
+import "../styles/Header.scss";
 
 const Header = () => {
   const [showHeader, setShowHeader] = useState(true);
@@ -15,8 +16,8 @@ const Header = () => {
           <div className="headerContent">
             <div className="headerText">
               <p>
-                You can now text our store at
-                <a className="">(437)-747-8473</a>
+                You can now text our store at &nbsp; 
+                <a href="sms:+18002970137" className="">(800)-297-0137</a>
               </p>
             </div>
           </div>

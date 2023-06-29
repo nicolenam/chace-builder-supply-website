@@ -27,7 +27,7 @@ const PopularProducts = () => {
                   <div className="sc-bdfBwQ sc-dYzljZ cIKpxU bEFvXX">
                     <div className="sc-bdfBwQ sc-eUWgFQ cIKpxU dEcYjv">
                       <div className="sc-gsTCUz sc-hxqDJO bhdLno emWfRI">
-                        <img src="/p_1677733749556_8d140761-a706-49d7-97c5-441dd0fb5344_1000181637.png" className="sc-jeGSBP sc-gfHAkt eoPaIm" />
+                        <img src="/p_1677733749556_8d140761-a706-49d7-97c5-441dd0fb5344_1000181637.png" className="sc-jeGSBP sc-gfHAkt eoPaIm" alt="metal screws"/>
                       </div>
                       <div className="sc-gsTCUz sc-hKgILt sc-oHXjo bhdLno gTLZXx fHFdtO">
                         <div>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap');
+
+.textBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 162px;
+    padding: 0px;
+    background-color: rgb(18, 133, 110);
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 23px;
+    transition: opacity 0.2s ease-out 0s;
+    position: fixed;
+    bottom: 35px;
+    right: 37px;
+    cursor: pointer;
+    border: none;
+}
+
+.textBtn:hover{
+    opacity: 0.8;
+    background-color: rgb(18, 133, 110);
+}
+
+.textUs{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 20px;
+}
