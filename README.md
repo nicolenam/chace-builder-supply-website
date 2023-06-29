@@ -25,6 +25,7 @@ Based on the analysis, the following optimizations will be implemented:
 3. Semantic HTML Structure: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
 
 <details>
+     <summary>Meta Tags</summary>
 
 ```html
 <html>
