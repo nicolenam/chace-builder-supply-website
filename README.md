@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# Chace Building Supply Website Optimization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the analysis, proposed optimizations, and updated code for the Chace Building Supply website optimization project. The goal of this project is to improve the website's performance, semantic structure, and search engine optimization (SEO) while adhering to the TOOLBX design standards.
 
-## Available Scripts
+## Analysis
 
-In the project directory, you can run:
+The existing Chace Building Supply website has been neglected for years, resulting in slow page load times and a lack of proper semantic structure. To address these issues, the following optimizations have been identified:
 
-### `npm start`
+1. **Page Load Time Optimization**: The website's HTML, CSS, and JavaScript code will be optimized to reduce page load time. Techniques such as minification, compression, and efficient use of browser caching will be employed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Semantic Structure Enhancement**: The website's markup will be enhanced to adhere to semantic HTML practices. Proper usage of HTML5 structural elements like header, nav, main, and footer will be implemented to improve readability and accessibility.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. **SEO Optimization**: The current markup will be evaluated for SEO deficiencies and improvements will be made. This includes using appropriate heading tags, meta tags, and structured data markup to enhance the website's visibility in search engine rankings.
