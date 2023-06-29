@@ -4,7 +4,7 @@ const Navigation = () => {
         <div className="">
             <a className="" href="/">
               <img
-                src="/CHACE-LOGO-409w.png"
+                src="/logo.webp"
                 alt="chace building supply logo"
                 className=""
               />

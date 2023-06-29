@@ -21,7 +21,7 @@ const PopularProducts = () => {
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
-        "url": "/ezgif.com-webp-to-png (2).png"
+        "url": "/wood.webp"
       },
       
     ]
@@ -32,7 +32,7 @@ const PopularProducts = () => {
           {products.map((product) => (
           <div key={product} className="row">
             {product.measurement}
-            <img src={product.url}/>
+            <img src={product.url} alt={product.sku}/>
           </div>
           ))}
         </ScrollContainer>
