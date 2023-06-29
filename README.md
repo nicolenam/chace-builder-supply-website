@@ -18,14 +18,14 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 Based on the analysis, the following optimizations will be implemented:
 
-1. Minification and Compression: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. Additionally, server-side compression techniques such as Gzip will be applied to further optimize file transfer.
+1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. Additionally, server-side compression techniques such as Gzip will be applied to further optimize file transfer.
 
-2. Browser Caching: The website's static assets, such as images, CSS, and JavaScript files, will be configured with appropriate cache headers to allow browsers to cache them and reduce the need for repeated downloads.
+2. **Browser Caching**: The website's static assets, such as images, CSS, and JavaScript files, will be configured with appropriate cache headers to allow browsers to cache them and reduce the need for repeated downloads.
 
-3. Semantic HTML Structure: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
+3. **Semantic HTML Structure**: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
 
     <details>
-        <summary>Meta Tags</summary>
+        <summary>Meta tags for SEO</summary>
 
     ```html
     <html>
@@ -56,3 +56,34 @@ Based on the analysis, the following optimizations will be implemented:
     </details>
 
 4. SEO Enhancements: Relevant heading tags (h1, h2, etc.) will be utilized to provide a clear hierarchy of content. Meta tags, including title, description, and keywords, will be optimized to accurately represent each page's content. Structured data markup will be added where appropriate to provide search engines with additional context.
+
+<details>
+        <summary>HTML structure</summary>
+
+    ```html
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+
+        <main>
+            <section className="welcome">
+            <div className="content-container">
+                <h1>Welcome to Chace Building Supply!</h1>
+                <p>
+                Over five generations ago in 1885, Peleg Durfree Humphrey first opened the doors of his lumber company on the riverfront wharf in Tiverton, Rhode Island. As the main suppliers for local business and residential construction, the company grew with the area and became the largest employer in Tiverton. Several generations later, P.D. Humphrey was instrumental in rebuilding the coastline areas of Southern Rhode Island and Eastern Connecticut after the devastating hurricane of 1938. A subsequent hurricane in 1954 finally resulted in a move to higher ground after company employees watched most of their inventory float away down the Sakonnet River.
+                </p>
+                <img src="/ezgif.com-webp-to-png.png" alt="deck">
+            </div>
+            </section>
+
+            <!-- Add more sections or content here -->
+        </main>
+
+        <footer>
+            <!-- Footer content here -->
+        </footer>
+    </body>
+
+    ```
+    </details>
