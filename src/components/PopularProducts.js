@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ScrollContainer } from 'react-indiana-drag-scroll'
 
 const PopularProducts = () => {
 
@@ -14,9 +15,28 @@ const PopularProducts = () => {
       console.log("leave");
     };
 
+    const products = [
+      {
+        "measurement": "2x4x8' SPF",
+        "sku" : 1000112108,
+        "price": "$9.00",
+        "inventory": true,
+        "url": "/ezgif.com-webp-to-png (2).png"
+      },
+      
+    ]
+
   return (
     <section className="popularProducts">
-        <div className="popHeadingDiv">
+        <ScrollContainer className="productContainer">
+          {products.map((product) => (
+          <div key={product} className="row">
+            {product.measurement}
+            <img src={product.url}/>
+          </div>
+          ))}
+        </ScrollContainer>
+        {/* <div className="popHeadingDiv">
           <h3>Popular Products</h3>
         </div>
         <div className="sc-gsTCUz sc-koaBLD bhdLno gNJvAP">
@@ -82,7 +102,7 @@ const PopularProducts = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
     </section>
   );
 }
