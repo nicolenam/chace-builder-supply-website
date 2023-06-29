@@ -2,21 +2,6 @@
 
 /* nav styles */
 
-nav{
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px 100px;
-  column-gap: 10px;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(249, 249, 249);
-  transition: all 0.2s ease-out 0s;
-  z-index: 999;
-  display: flex;
-  justify-content: space-between;
-  flex-shrink: 0;
-}
-
 .heroImage {
   height: auto;
   padding: 150px 0px 100px;

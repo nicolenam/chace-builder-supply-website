@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap');
+
+
+nav {
+    background-color: rgb(249, 249, 249);
+}
+
+.navContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    gap: 50px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.search{
+    z-index: 3000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 238, 238);
+    flex: 1 1 0%;
+}
+
+.search svg {
+    width: 24;
+    height: 24;
+    fill: none;
+    stroke: rgb(28, 28, 30);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.search input {
+    color: rgb(28, 28, 30);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    height: 70px;
+}
+
+.menuListItem {
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: opacity 0.2s ease-out 0s;
+}
+
+.menuList:hover{
+    opacity: 0.8;
+}
+
+.menuItems{
+    text-transform: uppercase;
+    user-select: none;
+    color: rgb(18, 133, 110);
+    font-family: "DM Sans";
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart{
+    text-decoration: none;
+}
+
+.quotes div {
+    border-radius: 25px;
+    border: 2px solid rgb(18, 133, 110);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    transition: all 0.2s ease-out 0s;
+    touch-action: manipulation;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    padding: 12px 30px;
+}
+
+.quotes a{
+    text-decoration: none;
+}
+
+.quotes p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5;
+    white-space: nowrap;
+    color: rgb(18, 133, 110);
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+    transition: all 0.2s ease-out 0s;
+    display: flex;
+    align-items: center;
+}

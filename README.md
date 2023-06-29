@@ -18,7 +18,8 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 
 Based on the analysis, the following optimizations will be implemented:
 
-1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. Additionally, server-side compression techniques such as Gzip will be applied to further optimize file transfer.
+1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. 	
+npm run build
 
 2. **Browser Caching**: The website's static assets, such as images, CSS, and JavaScript files, will be configured with appropriate cache headers to allow browsers to cache them and reduce the need for repeated downloads.
 
