@@ -4,7 +4,7 @@ This project aims to refactor and optimize the Chace Building Supply website to 
 
 ## Analysis and Proposed Changes
 
-![Screen Shot 2023-06-30 at 10 21 26 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/8c8a0db7-33fe-4840-b17a-38fa857fb6dd)
+![Screen Shot 2023-06-30 at 3 11 57 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/ea234007-2c84-417b-8e95-346ca398a953)
 
 For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
 
@@ -115,6 +115,9 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 - Pro Tools
 
 ## Summary Report
+
+![Screen Shot 2023-06-30 at 3 16 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/6d1b2eff-7e62-4552-aad7-a82eadb82be9)
+
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
 
 ## Acknowledgements
