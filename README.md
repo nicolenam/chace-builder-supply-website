@@ -19,11 +19,8 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 Based on the analysis, the following optimizations will be implemented:
 
 1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. 	
-npm run build
 
-2. **Browser Caching**: The website's static assets, such as images, CSS, and JavaScript files, will be configured with appropriate cache headers to allow browsers to cache them and reduce the need for repeated downloads.
-
-3. **Semantic HTML Structure**: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
+2. **Semantic HTML Structure**: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
 
     <details>
         <summary>Meta tags for SEO</summary>

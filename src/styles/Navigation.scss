@@ -239,11 +239,9 @@ a{
 .cIKpxU {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-shrink: 0;
-    -webkit-box-align: stretch;
-    align-items: stretch;
     box-sizing: content-box;
-    margin-top: -20px;
     z-index: 1000;
 }
 
@@ -298,8 +296,8 @@ a{
 
 .menuExit {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 40px;
+    top: 20px;
     cursor: pointer;
 }
 
@@ -346,6 +344,10 @@ a{
 .eWiHHB svg {
     opacity: 0;
     transition: opacity 0.2s ease-out 0s;
+}
+
+.eWiHHB:hover svg{
+    opacity: 1;
 }
 
 .product:hover .product-icon {
