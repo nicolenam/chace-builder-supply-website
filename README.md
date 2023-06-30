@@ -61,7 +61,6 @@ npm run build
     <details>
             <summary>HTML structure</summary>
 
-        ```html
         <body>
             <header>
                 <nav></nav>
@@ -86,5 +85,4 @@ npm run build
             </footer>
         </body>
 
-        ```
     </details>
