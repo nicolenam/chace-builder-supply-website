@@ -11,13 +11,12 @@ The existing Chace Building Supply website has been neglected for years, resulti
 1. **Page Load Time Optimization**: The website's HTML, CSS, and JavaScript code will be optimized to reduce page load time. Techniques such as minification, compression, and efficient use of browser caching will be employed.
 
 
-    <details>
-            <summary>Opportunities</summary>
-
-       * Reduce unused JavaScript  
-   
+    <details><summary>Opportunities</summary>
+    
+    - Reduce unused JavaScript  
+       
     </details>
-        
+
 
 2. **Semantic Structure Enhancement**: The website's markup will be enhanced to adhere to semantic HTML practices. Proper usage of HTML5 structural elements like header, nav, main, and footer will be implemented to improve readability and accessibility.
 
