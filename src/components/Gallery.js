@@ -1,19 +1,19 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import "../styles/Gallery.scss";
 
 const PopularProducts = () => {
 
-    const [isHovered, setIsHovered] = useState(false);
+    // const [isHovered, setIsHovered] = useState(false);
 
-    const handleMouseEnter = () => {
-      setIsHovered(true);
-      console.log("enter");
-    };
+    // const handleMouseEnter = () => {
+    //   setIsHovered(true);
+    //   console.log("enter");
+    // };
   
-    const handleMouseLeave = () => {
-      setIsHovered(false);
-      console.log("leave");
-    };
+    // const handleMouseLeave = () => {
+    //   setIsHovered(false);
+    //   console.log("leave");
+    // };
 
     const products = [
       {
