@@ -1,13 +1,13 @@
 import "../styles/Navigation.scss";
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Navigation = () => {
 
-  const [isOpen, setIsOpen ] = useState(false);
+  // const [isOpen, setIsOpen ] = useState(false);
 
-  const handleClick = () =>{
-    setIsOpen(!isOpen);
-  }
+  // const handleClick = () =>{
+  //   setIsOpen(!isOpen);
+  // }
 
   return(
     <nav>
@@ -15,7 +15,7 @@ const Navigation = () => {
         {/* logo */}
         <div className="logo">
           <a href="/">
-            <img src="/logo.webp"/>
+            <img src="/logo.webp" alt="chace logo"/>
           </a>
         </div>
         {/* input */}
