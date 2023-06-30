@@ -13,6 +13,8 @@ The existing Chace Building Supply website has been neglected for years, resulti
 
     <details>
             <summary>Opportunities</summary>
+
+            <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
    
     </details>
         
