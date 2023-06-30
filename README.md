@@ -118,6 +118,8 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 
 ![Screen Shot 2023-06-30 at 3 16 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/6d1b2eff-7e62-4552-aad7-a82eadb82be9)
 
+Deployed [Chace Building Supply](https://chace-building-supply.netlify.app)
+
 For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/djjr4amv17?form_factor=desktop)
 
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
