@@ -88,6 +88,7 @@ This project aims to refactor and optimize the Chace Building Supply website to 
 The optimized HTML, CSS, and JavaScript code can be found in the following files:
 
 - [Header.js](https://github.com/nicolenam/chace-builder-supply-website/blob/main/src/components/Header.js)
+- [Header.scss](https://github.com/nicolenam/chace-builder-supply-website/blob/main/src/styles/Header.scss)
 
 
 Please note that these files represent a representative sample of the optimization changes made.
