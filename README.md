@@ -6,7 +6,7 @@ This project aims to refactor and optimize the Chace Building Supply website to 
 
 ![Screen Shot 2023-06-30 at 10 21 26 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/8c8a0db7-33fe-4840-b17a-38fa857fb6dd)
 
-For full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
+For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
 
 ### Page Load Time Optimization
 - Implemented minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
