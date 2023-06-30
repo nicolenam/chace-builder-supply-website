@@ -10,7 +10,7 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
 
 ### Page Load Time Optimization
 - Implemented minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
-- Enabled compression using gzip or deflate to further reduce the size of transferred files.
+- Enabled compression using Webp format to further reduce the size of images.
 - Utilized browser caching by configuring appropriate cache headers for static assets like images, CSS, and JavaScript files.
 
 ### Semantic Structure Enhancement
