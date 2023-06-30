@@ -6,7 +6,9 @@ This repository contains the analysis, proposed optimizations, and updated code 
 
 ![Screen Shot 2023-06-30 at 10 21 26 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/8c8a0db7-33fe-4840-b17a-38fa857fb6dd)
 
-The existing Chace Building Supply website has been neglected for years, resulting in slow page load times and a lack of proper semantic structure. To address these issues, the following optimizations have been identified:
+[View Full Report](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
+
+The existing Chace Building Supply website has been neglected for years, resulting in slow page load times and a lack of proper semantic structure. To address these issues, the following opportunities have been identified:
 
 1. **Page Load Time Optimization**: The website's HTML, CSS, and JavaScript code will be optimized to reduce page load time. Techniques such as minification, compression, and efficient use of browser caching will be employed.
 
@@ -14,6 +16,9 @@ The existing Chace Building Supply website has been neglected for years, resulti
     <details><summary>Opportunities</summary>
     
     - Reduce unused JavaScript  
+    - Enable text compression
+    - Reduce unused CSS
+    - Add image dimensions
        
     </details>
 
