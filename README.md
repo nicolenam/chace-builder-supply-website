@@ -27,6 +27,15 @@ The existing Chace Building Supply website has been neglected for years, resulti
 
 3. **SEO Optimization**: The current markup will be evaluated for SEO deficiencies and improvements will be made. This includes using appropriate heading tags, meta tags, and structured data markup to enhance the website's visibility in search engine rankings.
 
+    <details><summary>Opportunities</summary>
+    
+    - Add descriptive link texts  
+        <p>Check out all of our <a href="videos.html">basketball videos</a>.</p> 
+    - Add [alt] attributes to all image elements
+       
+    </details>
+
+
 ## Proposed Optimizations
 
 What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
