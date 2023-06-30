@@ -98,18 +98,21 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 
 - Home
 - About Us
-- Products
-  - Category 1
+- Products and Services
+  
+  -  All Products
+    
+  - Kitchen and Bath
     - Product 1
     - Product 2
     - ...
-  - Category 2
-    - Product 1
-    - Product 2
+  - Contractor Services
+    - Installation Services
+    - Lumberyard Service
     - ...
-  - ...
-- Services
-- Contact Us
+
+- Support
+- Pro Tools
 
 ## Summary Report
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
