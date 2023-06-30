@@ -29,18 +29,12 @@ The existing Chace Building Supply website has been neglected for years, resulti
 
     <details><summary>Opportunities</summary>
     
-    - Add descriptive link texts  
-        <p>Check out all of our <a href="videos.html">basketball videos</a>.</p> 
     - Add [alt] attributes to all image elements
        
     </details>
 
 
 ## Proposed Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-
-Based on the analysis, the following optimizations will be implemented:
 
 1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. 	
 
@@ -77,7 +71,7 @@ Based on the analysis, the following optimizations will be implemented:
     ```
     </details>
 
-4. SEO Enhancements: Relevant heading tags (h1, h2, etc.) will be utilized to provide a clear hierarchy of content. Meta tags, including title, description, and keywords, will be optimized to accurately represent each page's content. Structured data markup will be added where appropriate to provide search engines with additional context.
+3. SEO Enhancements: Relevant heading tags (h1, h2, etc.) will be utilized to provide a clear hierarchy of content. Meta tags, including title, description, and keywords, will be optimized to accurately represent each page's content. Structured data markup will be added where appropriate to provide search engines with additional context.
 
     <details>
             <summary>HTML structure</summary>
