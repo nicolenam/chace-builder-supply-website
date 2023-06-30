@@ -1,79 +1,24 @@
 # Chace Building Supply Website Optimization
 
-This repository contains the analysis, proposed optimizations, and updated code for the Chace Building Supply website optimization project. The goal of this project is to improve the website's performance, semantic structure, and search engine optimization (SEO) while adhering to the TOOLBX design standards.
+This project aims to refactor and optimize the Chace Building Supply website to improve its performance, adhere to semantic HTML practices, and enhance search engine optimization (SEO). The goal is to achieve faster page load times, better usability, and improved visibility in search engine rankings.
 
-## Analysis
+## Analysis and Proposed Changes
 
 ![Screen Shot 2023-06-30 at 10 21 26 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/8c8a0db7-33fe-4840-b17a-38fa857fb6dd)
 
 [View Full Report](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
 
-The existing Chace Building Supply website has been neglected for years, resulting in slow page load times and a lack of proper semantic structure. To address these issues, the following opportunities have been identified:
+### Page Load Time Optimization
+- Implemented minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
+- Enabled compression using gzip or deflate to further reduce the size of transferred files.
+- Utilized browser caching by configuring appropriate cache headers for static assets like images, CSS, and JavaScript files.
 
-1. **Page Load Time Optimization**: The website's HTML, CSS, and JavaScript code will be optimized to reduce page load time. Techniques such as minification, compression, and efficient use of browser caching will be employed.
+### Semantic Structure Enhancement
+- Reviewed the existing markup and enhanced it to adhere to semantic HTML practices.
+- Replaced div elements with appropriate HTML5 structural elements such as header, nav, main, and footer.
+- Ensured proper usage of heading tags (h1, h2, etc.) for better document structure and accessibility.
 
-
-    <details><summary>Opportunities</summary>
-    
-    - Reduce unused JavaScript  
-    - Enable text compression
-    - Reduce unused CSS
-    - Add image dimensions
-       
-    </details>
-
-
-2. **Semantic Structure Enhancement**: The website's markup will be enhanced to adhere to semantic HTML practices. Proper usage of HTML5 structural elements like header, nav, main, and footer will be implemented to improve readability and accessibility.
-
-3. **SEO Optimization**: The current markup will be evaluated for SEO deficiencies and improvements will be made. This includes using appropriate heading tags, meta tags, and structured data markup to enhance the website's visibility in search engine rankings.
-
-    <details><summary>Opportunities</summary>
-    
-    - Add [alt] attributes to all image elements
-       
-    </details>
-
-
-## Proposed Optimizations
-
-1. **Minification and Compression**: The HTML, CSS, and JavaScript code will be minified to reduce file size and improve load times. 	
-
-2. **Semantic HTML Structure**: The existing markup will be updated to utilize semantic HTML5 elements, improving the website's structure and making it more accessible to users and search engines.
-
-    <details>
-        <summary>Meta tags for SEO</summary>
-
-    ```html
-    <html>
-        <head>
-            <meta charset="UTF-8">
-
-            <title>Chace Building Supply - Quality Construction Materials for Your Projects</title>
-
-            <meta name="description" content="Chace Building Supply offers a wide range of high-quality construction materials for residential and commercial projects. 
-            Browse our catalog and find everything you need for your next construction or remodeling job.">
-
-            <meta name="keywords" content="construction materials, building supplies, remodeling, residential construction">
-
-            <meta name="robots" content="index, follow">
-
-            <link rel="canonical" href="https://www.chacebuildingsupply.com/">
-
-            <meta property="og:title" content="Chace Building Supply - Quality Construction Materials">
-            <meta property="og:image" content="https://www.chacebuildingsupply.com/image.jpg">
-            
-        </head>
-    <body>
-    <!-- webpage content goes here -->
-    </body>
-    </html>
-
-    ```
-    </details>
-
-3. SEO Enhancements: Relevant heading tags (h1, h2, etc.) will be utilized to provide a clear hierarchy of content. Meta tags, including title, description, and keywords, will be optimized to accurately represent each page's content. Structured data markup will be added where appropriate to provide search engines with additional context.
-
-    <details>
+<details>
             <summary>HTML structure</summary>
 
         <body>
@@ -99,5 +44,76 @@ The existing Chace Building Supply website has been neglected for years, resulti
                 <!-- Footer content here -->
             </footer>
         </body>
+</details>
 
-    </details>
+### SEO Optimization
+- Evaluated the current markup for SEO deficiencies and made the following improvements:
+  - Implemented relevant and descriptive page titles using the <title> tag.
+  - Utilized appropriate heading tags (h1, h2, etc.) to structure content and highlight important keywords.
+  - Added meta tags, including meta description and meta keywords, to provide concise information for search engines.
+  - Implemented structured data markup, such as Schema.org, to enhance search engine understanding of the content.
+ 
+ <details>
+    <summary>Meta tags for SEO</summary>
+
+```html
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Chace Building Supply - Quality Construction Materials for Your Projects</title>
+
+        <meta name="description" content="Chace Building Supply offers a wide range of high-quality construction materials for residential and commercial projects. 
+        Browse our catalog and find everything you need for your next construction or remodeling job.">
+
+        <meta name="keywords" content="construction materials, building supplies, remodeling, residential construction">
+
+        <meta name="robots" content="index, follow">
+
+        <link rel="canonical" href="https://www.chacebuildingsupply.com/">
+
+        <meta property="og:title" content="Chace Building Supply - Quality Construction Materials">
+        <meta property="og:image" content="https://www.chacebuildingsupply.com/image.jpg">
+        
+    </head>
+<body>
+<!-- webpage content goes here -->
+</body>
+</html>
+
+```
+</details>
+
+## Updated Code
+The optimized HTML, CSS, and JavaScript code can be found in the following files:
+
+
+Please note that these files represent a representative sample of the optimization changes made.
+
+## Sitemap
+The recommended sitemap for the new and improved Chace Building Supply website is as follows:
+
+- Home
+- About Us
+- Products
+  - Category 1
+    - Product 1
+    - Product 2
+    - ...
+  - Category 2
+    - Product 1
+    - Product 2
+    - ...
+  - ...
+- Services
+- Contact Us
+
+## Summary Report
+A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
+
+## Acknowledgements
+- The Chace Building Supply team for providing the opportunity to optimize their website.
+- [Toolbx](https://toolbx.com) for the design standards and inspiration.
+
+## Contact
+For any inquiries or questions, please contact me at [eunjungnam@gmail.com](mailto:eunjungnam@gmail.com).
