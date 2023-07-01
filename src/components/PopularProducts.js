@@ -6,6 +6,7 @@ const PopularProducts = () => {
     const products = [
       {
         "measurement": "2x4x8' SPF",
+        "id": 1,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -13,6 +14,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 2,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -20,6 +22,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 3,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -27,6 +30,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 4,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -34,6 +38,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 5,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -41,6 +46,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 6,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -48,6 +54,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 7,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -55,6 +62,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 8,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
@@ -62,6 +70,7 @@ const PopularProducts = () => {
       },
       {
         "measurement": "2x4x8' SPF",
+        "id": 9,
         "sku" : 1000112108,
         "price": "$9.00",
         "inventory": true,
