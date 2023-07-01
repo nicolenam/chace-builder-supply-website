@@ -75,10 +75,6 @@ nav {
     transition: opacity 0.2s ease-out 0s;
 }
 
-.menuListItem:hover{
-    opacity: 0.8;
-}
-
 .menuItems{
     text-transform: uppercase;
     user-select: none;
@@ -327,10 +323,6 @@ a{
     text-overflow: ellipsis;
 }
 
-.eWiHHB:hover p {
-    text-decoration: underline;
-}
-
 .iyCIav {
     color: rgb(18, 133, 110);
     font-family: "DM Sans";
@@ -352,4 +344,14 @@ a{
 
 .product:hover .product-icon {
     display: block;
+}
+
+
+.gqBqms:hover {
+    opacity: 0.8;
+}
+
+.kQbLAY :hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

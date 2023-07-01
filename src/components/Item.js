@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "../styles/Gallery.scss";
+import "../styles/PopularProduct.scss";
 
 const Item = ({product}) =>{
 

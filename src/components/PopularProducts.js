@@ -1,9 +1,7 @@
-import "../styles/Gallery.scss";
+import "../styles/PopularProduct.scss";
 import Item from "./Item";
 
 const PopularProducts = () => {
-
-
 
     const products = [
       {

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap');
+
+.gridContainer{
+    width: 90%;
+    max-width: 1275px;
+    margin: 0 auto 100px;
+}
+
+.gridContainer h1{
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: none;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 2%;
+}
+
+// demo css
+
+.fQDgZz {
+    width: 31%;
+    max-width: 408px;
+}
+
+.cEyHdE {
+    max-width: 408px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.2s ease-out 0s;
+    color: rgb(18, 133, 110);
+}
+
+.ktbFdU {
+    height: 350px;
+    position: relative;
+    background-color: rgb(28, 28, 30);
+}
+
+.grsaJH:link, .grsaJH:visited, .grsaJH:hover, .grsaJH:active {
+    color: inherit;
+}
+
+.grsaJH {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bRFhLZ {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+.iYXiWl {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://ik.imagekit.io/toolbx/watson_drywall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hghKoX {
+    position: absolute;
+    padding-right: 35px;
+    left: 35px;
+    bottom: 35px;
+    transition: all 0.2s ease-out 0s;
+}
+
+.dJCcd {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: none;
+    margin: 0px;
+    font-size: 36px;
+}
+
+.cEyHdE:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px;
+    transform: translate(0px, -10px);
+}
+
+.hsIUPC {
+    color: rgb(18, 133, 110);
+    font-family: "DM Sans";
+    text-transform: none;
+    margin: 0px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fkyVgZ {
+    margin: 35px;
+}
+
+.oTMnK {
+    width: 100%;
+    height: 20px;
+}
+
+.bNeaU:hover {
+    text-decoration: underline;
+}
+
+.hsIUPC:hover {
+    text-decoration: underline;
+}
