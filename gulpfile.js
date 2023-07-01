@@ -7,11 +7,9 @@ const cleanCSS = require('gulp-clean-css');
 
 // Task to concatenate and minify JavaScript files
 gulp.task('js', function () {
-    // src/components/*.js
-  return gulp.src('./src/components/*.js') // Specify the source path for your JavaScript files
-    .pipe(concat('bundle.js')) // Concatenate all JavaScript files into a single file named 'bundle.js'
-    .pipe(uglify()) // Minify the JavaScript code
-    .pipe(gulp.dest('./dist/js/')); // Specify the destination path for the minified JavaScript file
+  return gulp.src('./src/components/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'));
 });
 
 // Task to concatenate and minify CSS files
