@@ -2,6 +2,8 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const cleanCSS = require('gulp-clean-css');
+const sass = require('gulp-sass');
+
 
 // Task to concatenate and minify JavaScript files
 gulp.task('js', function () {
@@ -13,7 +15,8 @@ gulp.task('js', function () {
 
 // Task to concatenate and minify CSS files
 gulp.task('css', function () {
-  return gulp.src('src/css/*.css') // Specify the source path for your CSS files
+    return gulp.src('src/scss/*.scss') // Specify the source path for your Sass files
+    .pipe(sass().on('error', sass.logError)) // Compile Sass to CSS
     .pipe(concat('styles.css')) // Concatenate all CSS files into a single file named 'styles.css'
     .pipe(cleanCSS()) // Minify the CSS code
     .pipe(gulp.dest('dist/css')); // Specify the destination path for the minified CSS file
