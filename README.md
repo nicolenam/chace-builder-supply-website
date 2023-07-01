@@ -116,7 +116,14 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 
 ## Summary Report
 
-![Screen Shot 2023-06-30 at 3 16 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/6d1b2eff-7e62-4552-aad7-a82eadb82be9)
+Before            |  After
+:---------------:|:-------------------------:
+![Screen Shot 2023-06-30 at 3 11 57 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/ea234007-2c84-417b-8e95-346ca398a953)  |  ![Screen Shot 2023-06-30 at 3 16 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/6d1b2eff-7e62-4552-aad7-a82eadb82be9)
+
+
+
+
+
 
 Deployed [Chace Building Supply](https://chace-building-supply.netlify.app)
 
