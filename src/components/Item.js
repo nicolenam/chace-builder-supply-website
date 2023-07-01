@@ -7,12 +7,10 @@ const Item = ({product}) =>{
 
     const handleMouseEnter = () => {
       setIsHovered(true);
-      console.log("enter");
     };
   
     const handleMouseLeave = () => {
       setIsHovered(false);
-      console.log("leave");
     };
 
     return (
