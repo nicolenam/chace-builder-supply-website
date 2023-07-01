@@ -92,6 +92,7 @@ footer {
     flex-direction: column;
     flex-shrink: 0;
     align-items: stretch;
+    z-index: 100
 }
 
 .huvkpK {
@@ -184,4 +185,9 @@ footer {
 .erSSIN {
     width: 100%;
     gap: 0px;
+}
+
+.bFBCms {
+    align-items: center;
+    gap: 5px;
 }
