@@ -11,7 +11,7 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
 ### Page Load Time Optimization
 - Implemented minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
 - Enabled compression using Webp format to further reduce the size of images.
-- Utilized browser caching by configuring appropriate cache headers for static assets like images, CSS, and JavaScript files.
+- Utilized lazy loading, which means that a component or a part of code only gets loaded when it is required.
 
 ### Semantic Structure Enhancement
 - Reviewed the existing markup and enhanced it to adhere to semantic HTML practices.
