@@ -46,3 +46,24 @@
     margin-top: 35px;
     gap: 35px;
 }
+
+// media queries
+
+@media (max-width: 768px){
+    .eDyHha {
+        padding: 50px 0px;
+    }
+    
+    .dPkLWU {
+        flex-direction: column;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        column-gap: 0px;
+        margin-bottom: 50px;
+    }
+
+    .fYnMkb {
+        font-size: 18px;
+    }
+
+}

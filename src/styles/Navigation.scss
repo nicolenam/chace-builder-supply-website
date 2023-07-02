@@ -354,3 +354,11 @@ a{
     text-decoration: underline;
     cursor: pointer;
 }
+
+// media queries
+
+@media (max-width: 1000px) {
+    .quotes {
+        display: none;
+    }
+  }
