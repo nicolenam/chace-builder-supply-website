@@ -13,9 +13,6 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
 - Enable compression using Webp format to further reduce the size of images.
 - Utilize lazy loading, which means that a component or a part of code only gets loaded when it is required.
 
-![Screen Shot 2023-07-01 at 6 16 54 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/c454fcd7-1343-4239-a454-f83f53a311a7)
-
-
  <details>
             <summary>Opportunities</summary>
 
@@ -117,9 +114,7 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 ![Screen Shot 2023-07-01 at 5 58 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/e40a3cda-62de-47d9-b9d8-fd4f2ad773b1)  |  ![Screen Shot 2023-07-01 at 5 57 32 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/94a698e6-0129-40bf-ab96-44bcbac2791e)
 
 
-Deployed [Chace Building Supply](https://chace-building-supply.netlify.app)
-
-For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/djjr4amv17?form_factor=desktop)
+Deployed [Chace Building Supply](https://chace-building-supply.netlify.app) and Full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/djjr4amv17?form_factor=desktop)
 
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
 
