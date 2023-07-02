@@ -102,11 +102,6 @@ The optimized HTML, CSS, and JavaScript code can be found in the following files
 
 Please note that these files represent a representative sample of the optimization changes made.
 
-## Sitemap
-The recommended sitemap for the new and improved Chace Building Supply website is as follows:
-
-![Screen Shot 2023-07-02 at 12 37 44 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/784dbd96-b1ca-4246-9e79-bd0ea8039319)
-
 ## Summary Report
 
 | Before | After |
@@ -117,6 +112,12 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 Deployed [Chace Building Supply](https://chace-building-supply.netlify.app) and Full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/djjr4amv17?form_factor=desktop)
 
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
+
+## Sitemap
+The recommended sitemap for the new and improved Chace Building Supply website is as follows:
+
+![Screen Shot 2023-07-02 at 12 37 44 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/784dbd96-b1ca-4246-9e79-bd0ea8039319)
+
 
 ## Acknowledgements
 - The Chace Building Supply team for providing the opportunity to optimize their website.
