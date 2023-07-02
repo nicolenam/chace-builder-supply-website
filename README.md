@@ -108,23 +108,7 @@ Please note that these files represent a representative sample of the optimizati
 ## Sitemap
 The recommended sitemap for the new and improved Chace Building Supply website is as follows:
 
-- Home
-- About Us
-- Products and Services
-  
-  -  All Products
-    
-  - Kitchen and Bath
-    - Product 1
-    - Product 2
-    - ...
-  - Contractor Services
-    - Installation Services
-    - Lumberyard Service
-    - ...
-
-- Support
-- Pro Tools
+![Screen Shot 2023-07-02 at 12 37 44 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/784dbd96-b1ca-4246-9e79-bd0ea8039319)
 
 ## Summary Report
 
