@@ -47,7 +47,7 @@ const Footer = () => {
                                     </a>
                                 </div>
                                 <div className="sc-gsTCUz sc-ihnbgO bhdLno dWVYgZ">
-                                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY">
+                                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY" aria-label="Visit twitter">
                                         <div color="#12856e" className="sc-fXvjs bzmlNw">
                                             <svg width="24" height="20" viewBox="0 0 24 20" fill="#12856e" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -60,7 +60,7 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                     </a>
-                                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY">
+                                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY" aria-label="Visit instagram">
                                         <div color="#12856e" className="sc-fXvjs bzmlNw">
                                             <svg width="22" height="22" viewBox="0 0 22 22" fill="#12856e" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -81,7 +81,7 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                     </a>
-                                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY">
+                                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY" aria-label="Visit linkedIn">
                                         <div color="#12856e" className="sc-fXvjs bzmlNw">
                                             <svg width="22" height="22" viewBox="0 0 22 22" fill="#12856e" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -102,7 +102,7 @@ const Footer = () => {
                                             </svg>
                                         </div>
                                     </a>
-                                    <a href="https://houzz.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY">
+                                    <a href="https://houzz.com/" target="_blank" rel="noopener noreferrer" className="sc-cjHJEj kQbLAY" aria-label="Visit houzz">
                                         <div color="#12856e" className="sc-fXvjs bzmlNw">
                                             <svg width="22" height="24" viewBox="0 0 22 24" fill="#12856e" xmlns="http://www.w3.org/2000/svg">
                                                 <path
