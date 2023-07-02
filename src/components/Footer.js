@@ -13,10 +13,10 @@ const Footer = () => {
                         <div className="sc-bdfBwQ sc-hgPISZ cIKpxU gtqbjT">
                             <div className="sc-bdfBwQ sc-dlfnbm sc-kemFKM cIKpxU bcaJjD gjGVCn">
                                 <div className="sc-bdfBwQ cIKpxU">
-                                    <p className="sc-fvhGYg bwWsNa">325 Front St West, Toronto&nbsp;ON</p>
+                                    <p className="sc-fvhGYg bwWsNa">90 Somers Turnpike, RT 171, <br />PO Box 489, Woodstock, CT 06281</p>
                                     <p className="sc-fvhGYg bwWsNa">Phone: 1 (437) 747-8473</p>
-                                    <a href="mailto:dev+test@toolbx.com?subject=" className="sc-fxNNfJ eHPhCZ sc-hFupcP jqYZPY" color="#12856e">
-                                        dev+test@toolbx.com
+                                    <a href="mailto:info@chacebuildingsupply.comhow to ?subject=" className="sc-fxNNfJ eHPhCZ sc-hFupcP jqYZPY" color="#12856e">
+                                        info@chacebuildingsupply.comhow to 
                                     </a>
                                 </div>
                                 <div className="sc-bdfBwQ cIKpxU">
