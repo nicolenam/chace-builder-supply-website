@@ -9,14 +9,25 @@ This project aims to refactor and optimize the Chace Building Supply website to 
 For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-chacebuildingsupply-com/m95mk94djn?form_factor=desktop)
 
 ### Page Load Time Optimization
-- Implemented minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
-- Enabled compression using Webp format to further reduce the size of images.
-- Utilized lazy loading, which means that a component or a part of code only gets loaded when it is required.
+- Implement minification of HTML, CSS, and JavaScript files to reduce file sizes and improve loading speed.
+- Enable compression using Webp format to further reduce the size of images.
+- Utilize lazy loading, which means that a component or a part of code only gets loaded when it is required.
+
+![Screen Shot 2023-07-01 at 6 16 54 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/c454fcd7-1343-4239-a454-f83f53a311a7)
+
+
+ <details>
+            <summary>Opportunities</summary>
+
+- Reduce unused CSS and JS files (2.53s)
+![Screen Shot 2023-07-01 at 6 12 08 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/e768b5d8-eae9-4eac-b39b-53b40af3c4b3)
+
+</details>
 
 ### Semantic Structure Enhancement
-- Reviewed the existing markup and enhanced it to adhere to semantic HTML practices.
-- Replaced div elements with appropriate HTML5 structural elements such as header, nav, main, and footer.
-- Ensured proper usage of heading tags (h1, h2, etc.) for better document structure and accessibility.
+- Review the existing markup and enhance it to adhere to semantic HTML practices.
+- Replace div elements with appropriate HTML5 structural elements such as header, nav, main, and footer.
+- Ensure proper usage of heading tags (h1, h2, etc.) for better document structure and accessibility.
 
 <details>
             <summary>HTML structure</summary>
@@ -47,11 +58,10 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
 </details>
 
 ### SEO Optimization
-- Evaluated the current markup for SEO deficiencies and made the following improvements:
-  - Implemented relevant and descriptive page titles using the <title> tag.
-  - Utilized appropriate heading tags (h1, h2, etc.) to structure content and highlight important keywords.
-  - Added meta tags, including meta description and meta keywords, to provide concise information for search engines.
-  - Implemented structured data markup, such as Schema.org, to enhance search engine understanding of the content.
+- Evaluate the current markup for SEO deficiencies and make the following improvements:
+  - Implement relevant and descriptive page titles using the <title> tag.
+  - Utilize appropriate heading tags (h1, h2, etc.) to structure content and highlight important keywords.
+  - Add meta tags, including meta description and meta keywords, to provide concise information for search engines.
  
  <details>
     <summary>Meta tags for SEO</summary>
@@ -66,7 +76,9 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
         <meta name="description" content="Chace Building Supply offers a wide range of high-quality construction materials for residential and commercial projects. 
         Browse our catalog and find everything you need for your next construction or remodeling job.">
 
-        <meta name="keywords" content="construction materials, building supplies, remodeling, residential construction">
+        <meta name="keywords" content="construction materials
+
+, building supplies, remodeling, residential construction">
 
         <meta name="robots" content="index, follow">
 
