@@ -193,4 +193,4 @@ The recommended sitemap for the new and improved Chace Building Supply website i
 - [Toolbx](https://toolbx.com) for the design standards and inspiration.
 
 ## Contact
-For any inquiries or questions, please contact me at [eunjungnam@gmail.com](mailto:eunjungnam@gmail.com).
+For any inquiries or questions, please contact me at [eunjungnam@gmail.com](mailto:eunjungnam@gmail.com)
