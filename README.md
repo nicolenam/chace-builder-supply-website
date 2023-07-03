@@ -106,11 +106,10 @@ Please note that these files represent a representative sample of the optimizati
 
 | Before | After |
 | --- | --- |
-![Screen Shot 2023-07-01 at 5 58 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/e40a3cda-62de-47d9-b9d8-fd4f2ad773b1)  | ![Screen Shot 2023-07-02 at 12 58 25 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/70eb450b-61e6-4ede-add6-39a9f23454da)
+![Screen Shot 2023-07-01 at 5 58 53 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/e40a3cda-62de-47d9-b9d8-fd4f2ad773b1)  | ![Screen Shot 2023-07-02 at 9 55 01 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/91a85aab-791f-4e20-8aff-8c934f8c0bb0)
 
 
-
-Deployed [Chace Building Supply](https://chace-building-supply.netlify.app) and Full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/0178v5mkzm?form_factor=desktop)
+Deployed [Chace Building Supply](https://chace-building-supply.netlify.app) and Full report, view [PageSpeed Insights] (https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/hb2skcjqk5?form_factor=desktop)
 
 A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
 
