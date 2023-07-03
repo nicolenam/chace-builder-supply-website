@@ -25,33 +25,102 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
 - Review the existing markup and enhance it to adhere to semantic HTML practices.
 - Replace div elements with appropriate HTML5 structural elements such as header, nav, main, and footer.
 - Ensure proper usage of heading tags (h1, h2, etc.) for better document structure and accessibility.
+- Add Schema markup, found at Schema.org, is a form of microdata. Schema markup creates an enhanced description, which appears in search results.
 
 <details>
             <summary>HTML structure</summary>
+<body>
+    <header>
+        <nav></nav>
+    </header>
 
-        <body>
-            <header>
-                <nav></nav>
-            </header>
-
-            <main>
-                <section className="welcome">
-                    <div className="content-container">
-                        <h1>Welcome to Chace Building Supply!</h1>
-                        <p>
-                        Over five generations ago in 1885, Peleg Durfree Humphrey first opened the doors of his lumber company on the riverfront wharf in Tiverton, Rhode Island. As the main suppliers for local business and residential construction, the company grew with the area and became the largest employer in Tiverton. Several generations later, P.D. Humphrey was instrumental in rebuilding the coastline areas of Southern Rhode Island and Eastern Connecticut after the devastating hurricane of 1938. A subsequent hurricane in 1954 finally resulted in a move to higher ground after company employees watched most of their inventory float away down the Sakonnet River.
-                        </p>
-                        <img src="/ezgif.com-webp-to-png.png" alt="deck">
+    <main>
+        <section className="about">
+            <div className="aboutContainer">
+                <h1>Chace Building Supply</h1>
+            </div>
+            <div className="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2245495232055!2d-71.934847640827!3d41.93102598816592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e42773292aa979%3A0x5276ec279c3b0a1c!2s90%20Somers%20Turnpike%2C%20Putnam%2C%20CT%2006260%2C%20USA!5e0!3m2!1sen!2sca!4v1688266538456!5m2!1sen!2sca"
+                    width="600"
+                    height="450"
+                    allowFullScreen=""
+                    loading="lazy"
+                    title="chace map"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <div className="locationDetails">
+                    <h2>Location</h2>
+                    <div className="sc-bdfBwQ sc-gbHxpA cIKpxU hjQVrM">
+                        <div>
+                            <p className="sc-hOqqkJ cWGOwq">Chace Building Supply</p>
+                            <p className="sc-hOqqkJ cWGOwt">90 Somers Turnpike</p>
+                            <p className="sc-hOqqkJ cWGOwt">Woodstock, CT 06281</p>
+                        </div>
+                        <div>
+                            <p className="sc-hOqqkJ cWGOwt">Phone: 1 (437) 747-8473</p>
+                            <a href="mailto:info@chacebuildingsupply.com">
+                                <p color="#12856e" className="sc-hOqqkJ hsIUPC">info@chacebuildingsupply.com</p>
+                            </a>
+                        </div>
+                        <div>
+                            <p className="sc-hOqqkJ cWGOwq">Store Hours</p>
+                            <p className="sc-hOqqkJ cWGOwt">Mon-Fri 8 AM - 4 PM</p>
+                            <p className="sc-hOqqkJ cWGOwt">Sat 9 AM - 12 PM</p>
+                            <p className="sc-hOqqkJ cWGOwt">Sun CLOSED</p>
+                        </div>
+                        <a href="/" className="sc-cjHJEj kQbLAY">
+                            <p color="#12856e" className="sc-hOqqkJ hsIUPC">Change Location</p>
+                        </a>
                     </div>
-                </section>
+                </div>
+            </div>
+        </section>
+        <!-- Add more sections or content here -->
+    </main>
 
-                <!-- Add more sections or content here -->
-            </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
 
-            <footer>
-                <!-- Footer content here -->
-            </footer>
-        </body>
+
+
+</details>
+
+<details>
+            <summary>HTML structure with Schema</summary>
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <section itemscope itemtype="http://schema.org/LocalBusiness" className="about">
+            <div className="aboutContainer">
+                <h1 itemprop="name">Chace Building Supply</h1>
+            </div>
+            
+                 <!--  Add more sections or content here  -->
+                 
+            <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+                <span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
+                    <div itemprop="name">
+                        <p className="sc-hOqqkJ cWGOwq">Store Hours</p>
+                        <p className="sc-hOqqkJ cWGOwt">Mon-Fri 8 AM - 4 PM</p>
+                        <p className="sc-hOqqkJ cWGOwt">Sat 9 AM - 12 PM</p>
+                        <p className="sc-hOqqkJ cWGOwt">Sun CLOSED</p>
+                    </div>
+                </span>
+            </span>
+                    
+     <!--  Add more sections or content here  -->
+       
 </details>
 
 ### SEO Optimization
