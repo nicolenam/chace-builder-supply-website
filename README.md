@@ -181,7 +181,7 @@ Please note that these files represent a representative sample of the optimizati
 
 Deployed [Chace Building Supply](https://chace-building-supply.netlify.app) and Full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-chace-building-supply-netlify-app/hb2skcjqk5?form_factor=desktop)
 
-A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the `summary-report.pdf` file.
+A summary report outlining the key optimizations made and their expected impact on performance, conversion rate, and SEO is available in the [summary-report](https://docs.google.com/document/d/1E1Gf4Kck1xhBblbBlynD9R_bi4efCI8HYNNjalOO8N4/edit?usp=sharing) file.
 
 ## Sitemap
 The recommended sitemap for the new and improved Chace Building Supply website is as follows:
