@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { lazy } from 'react';
+// import React, { lazy } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import About from './components/About'
 import './styles/Resets.scss';
 
-const About = lazy(() => import( './components/About'));
+// const About = lazy(() => import( './components/About'));
 
 function App() {
   return (
