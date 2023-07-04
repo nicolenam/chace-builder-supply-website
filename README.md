@@ -187,7 +187,7 @@ A summary report outlining the key optimizations made and their expected impact 
 ## Sitemap
 The recommended sitemap for the new and improved Chace Building Supply website is as follows:
 
-![Screen Shot 2023-07-04 at 11 30 56 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/6a1fa2ec-7285-4171-bfd4-1c476635384d)
+![Screen Shot 2023-07-04 at 11 49 43 AM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/40ae647e-130a-448f-9777-540ad7e5c05a)
 
 ## Acknowledgements
 - The Chace Building Supply team for providing the opportunity to optimize their website.
