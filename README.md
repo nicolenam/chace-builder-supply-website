@@ -155,6 +155,7 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
         
     </head>
 <body>
+
 <!-- webpage content goes here -->
 </body>
 </html>
@@ -186,7 +187,7 @@ A summary report outlining the key optimizations made and their expected impact 
 ## Sitemap
 The recommended sitemap for the new and improved Chace Building Supply website is as follows:
 
-![Ivory Lilac and Green Modern Process Flow Graph (1)](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/16b4b9ef-4d0b-42fa-8158-8c27a65c5bcb)
+![Screen Shot 2023-07-03 at 10 21 17 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/7dded48c-8bb9-42f5-bb84-9d6b9321a29b)
 
 ## Acknowledgements
 - The Chace Building Supply team for providing the opportunity to optimize their website.
