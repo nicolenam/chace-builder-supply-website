@@ -16,7 +16,7 @@ For a full report, view [PageSpeed Insights](https://pagespeed.web.dev/analysis/
  <details>
             <summary>Opportunities</summary>
 
-- Reduce unused CSS and JS files (2.53s)
+- Reduce unused CSS and JS files
 ![Screen Shot 2023-07-01 at 6 12 08 PM](https://github.com/nicolenam/chace-builder-supply-website/assets/58302337/e768b5d8-eae9-4eac-b39b-53b40af3c4b3)
 
 </details>
